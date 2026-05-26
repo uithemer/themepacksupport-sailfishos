@@ -2,9 +2,11 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Theme pack support for Sailfish OS"
+description: "Deprecated — see https://uithemer.github.io/sailfishos-uithemer/"
 permalink: /
 ---
+
+> **Deprecated documentation.** This site is no longer maintained. Please use the current docs: [UI Themer documentation](https://uithemer.github.io/sailfishos-uithemer/).
 
 # Theme pack support for Sailfish OS
 
