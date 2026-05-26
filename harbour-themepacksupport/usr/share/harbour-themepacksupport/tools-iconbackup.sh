@@ -12,7 +12,7 @@ if [ ! -d $main/backup/icons ]; then
 fi
 
 cd $main/backup/
-tar -zcf /home/nemo/$name.tar.gz ./icons
-chown nemo:nemo /home/nemo/$name.tar.gz
+tar -zcf /home/defaultuser/$name.tar.gz ./icons
+chown defaultuser:defaultuser /home/defaultuser/$name.tar.gz
 
-echo "/home/nemo/$name.tar.gz created"
+echo "/home/defaultuser/$name.tar.gz created"

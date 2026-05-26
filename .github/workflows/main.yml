@@ -1,0 +1,28 @@
+name: CI
+
+env:
+  RELEASE: 5.0.0.43
+
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Prepare
+      run: mkdir RPMS
+
+    - name: Build aarch64
+      uses: coderus/github-sfos-build@sfos5
+      with:
+        release: ${{ env.RELEASE }}
+        arch: aarch64
+    - name: Upload build results
+      uses: actions/upload-artifact@v4
+      with:
+        name: RPM-build-results_SFOS${{ env.RELEASE }}+
+        path: RPMS/

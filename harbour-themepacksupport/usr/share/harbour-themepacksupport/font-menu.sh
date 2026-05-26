@@ -88,13 +88,13 @@ EOF
 		esac ;;
     "F"|"f")  read -p "Please enter font size multiplier or 'q' to exit and press enter. Suggested size is 1.1 or 1.2: " f1
 		case "$f1" in 
-		[0-3]* ) su - nemo -c "dconf write /desktop/jolla/theme/font/sizeMultiplier $f1"
+		[0-3]* ) su - defaultuser -c "dconf write /desktop/jolla/theme/font/sizeMultiplier $f1"
 		echo "done!"; sleep 1 ;;
 		q|Q ) echo "quit"; sleep 1 ;;
 		esac
 		read -p "Please enter font size threshold (max font size) or 'q' to exit and press enter. Suggested size is 60: " f2
 		case "$f2" in 
-		[0-3]* ) su - nemo -c "dconf write /desktop/jolla/theme/font/sizeThreshold $f2"
+		[0-3]* ) su - defaultuser -c "dconf write /desktop/jolla/theme/font/sizeThreshold $f2"
 		echo "done!"; sleep 1 ;;
 		q|Q ) echo "quit"; sleep 1 ;;
 		esac ;;
@@ -111,8 +111,8 @@ EOF
     "S"|"s")  echo "This will restore your default font size. Continue y/N? "
 		read -n1 -s choice
 		case "$choice" in 
-		y|Y ) su - nemo -c "dconf reset /desktop/jolla/theme/font/sizeMultiplier"
-		su - nemo -c "dconf reset /desktop/jolla/theme/font/sizeThreshold"
+		y|Y ) su - defaultuser -c "dconf reset /desktop/jolla/theme/font/sizeMultiplier"
+		su - defaultuser -c "dconf reset /desktop/jolla/theme/font/sizeThreshold"
 		echo "done!"; sleep 1 ;;
 		* ) echo "aborted"; sleep 1 ;;
 		esac ;;
