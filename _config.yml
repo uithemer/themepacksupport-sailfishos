@@ -1,6 +1,6 @@
 remote_theme: pmarsceill/just-the-docs
 title: Theme pack support
-description: Theme pack support for Sailfish OS
+description: "Deprecated — see https://uithemer.github.io/sailfishos-uithemer/"
 baseurl: "/themepacksupport-sailfishos"
 exclude: ["harbour-themepacksupport/", "LICENSE", "*.png", "*.spec"]
 
