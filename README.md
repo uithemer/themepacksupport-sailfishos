@@ -2,15 +2,15 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Deprecated — see https://uithemer.github.io/sailfishos-uithemer/"
+description: "Deprecated — see https://uithemer.github.io/harbour-muoto/"
 permalink: /
 ---
 
-> **Deprecated documentation.** This site is no longer maintained. Please use the current docs: [UI Themer documentation](https://uithemer.github.io/sailfishos-uithemer/).
+> **Deprecated documentation.** This site is no longer maintained. Please use the current docs: [Muoto documentation](https://uithemer.github.io/harbour-muoto/).
 
 # Theme pack support for Sailfish OS
 
-The script works by replacing default elements with custom ones and enables safe backup/restore. A GUI is available [here](https://uithemer.github.io/sailfishos-uithemer/).
+The script works by replacing default elements with custom ones and enables safe backup/restore. A GUI is available [here](https://uithemer.github.io/harbour-muoto/).
 
 [![GitHub license](https://img.shields.io/github/license/uithemer/themepacksupport-sailfishos.svg)](https://github.com/uithemer/themepacksupport-sailfishos/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/uithemer/themepacksupport-sailfishos.svg)](https://github.com/uithemer/themepacksupport-sailfishos/issues) [![GitHub releases](https://img.shields.io/github/release/uithemer/themepacksupport-sailfishos.svg)](https://github.com/uithemer/themepacksupport-sailfishos/releases/latest) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/fravaccaro)
 
